@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>III Simposio de Divulgación Matemática · Red DIMAT Chile</title>
+  <meta name="description" content="Tercer Simposio de Divulgación Matemática. 29, 30 y 31 de julio de 2026, Santiago de Chile. Organizado por la Red DIMAT Chile.">
+  <meta name="author" content="Red de Divulgación Matemática Chile (DIMAT)">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="III Simposio de Divulgación Matemática">
+  <meta property="og:description" content="29, 30 y 31 de julio de 2026 · Santiago de Chile">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dimatchile.cl/">
+  <meta property="og:image" content="https://dimatchile.cl/assets/images/og-banner.jpg">
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Tipografías: Fraunces (display, carácter editorial-académico) + Inter Tight (cuerpo limpio) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ========== NAV ========== -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <text x="20" y="27" text-anchor="middle" font-family="Fraunces, serif" font-size="22" font-weight="600" fill="currentColor">π</text>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">DIMAT</span>
+          <span class="brand-sub">Red Chilena</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Principal">
+        <a href="#simposio">El Simposio</a>
+        <a href="#programa">Programa</a>
+        <a href="#invitado">Invitado</a>
+        <a href="#convocatoria">Convocatoria</a>
+        <a href="#organizan">Organizan</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section id="inicio" class="hero">
+    <!-- Decoración geométrica de fondo -->
+    <div class="hero-deco" aria-hidden="true">
+      <svg class="deco-grid" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.15"/>
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#grid)"/>
+      </svg>
+      <svg class="deco-curve" viewBox="0 0 600 400" aria-hidden="true">
+        <path d="M 0 300 Q 150 100, 300 200 T 600 150" fill="none" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+        <path d="M 0 350 Q 150 150, 300 250 T 600 200" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
+      </svg>
+      <svg class="deco-icosa" viewBox="0 0 200 200" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.65">
+          <polygon points="100,20 170,60 170,140 100,180 30,140 30,60"/>
+          <polygon points="100,20 100,180"/>
+          <polygon points="30,60 170,140"/>
+          <polygon points="170,60 30,140"/>
+          <polygon points="100,20 30,140"/>
+          <polygon points="100,20 170,140"/>
+          <polygon points="100,180 30,60"/>
+          <polygon points="100,180 170,60"/>
+        </g>
+      </svg>
+      <span class="deco-pi">π</span>
+      <span class="deco-dots">
+        <i></i><i></i><i></i><i></i><i></i><i></i>
+      </span>
+    </div>
+
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">29, 30 y 31 de julio de 2026 · Santiago de Chile</p>
+        <h1 class="hero-title">
+          <span class="hero-edition">III Simposio</span>
+          <span class="hero-name">de Divulgación<br>Matemática</span>
+        </h1>
+        <p class="hero-lema">Matemáticas que conectan,<br>ideas que transforman.</p>
+        <p class="hero-lead">
+          El principal encuentro nacional dedicado a la divulgación matemática.
+          Tres jornadas para compartir experiencias, proyectos y nuevas formas
+          de acercar las Matemáticas a la sociedad.
+        </p>
+        <div class="hero-cta">
+          <a href="#programa" class="btn btn-primary">Ver el programa</a>
+          <a href="#convocatoria" class="btn btn-ghost">Convocatoria</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <div class="card-tag">Datos clave</div>
+        <dl class="key-facts">
+          <div>
+            <dt>Fechas</dt>
+            <dd>29 — 31 julio 2026</dd>
+          </div>
+          <div>
+            <dt>Sede</dt>
+            <dd>Santiago de Chile</dd>
+          </div>
+          <div>
+            <dt>Inscripción</dt>
+            <dd>Gratuita</dd>
+          </div>
+          <div>
+            <dt>Edición</dt>
+            <dd>Tercera</dd>
+          </div>
+        </dl>
+        <p class="card-foot">Próximamente: convocatoria abierta para ponencias, proyectos, stands y talleres.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ========== EL SIMPOSIO ========== -->
+  <section id="simposio" class="section section-light">
+    <div class="container two-col">
+      <div class="col-head">
+        <p class="section-eyebrow">01 · El Simposio</p>
+        <h2 class="section-title">Un espacio para la divulgación que se hace en Chile</h2>
+      </div>
+      <div class="col-body">
+        <p class="lead">
+          La Red de Divulgación Matemática Chile (DIMAT) reúne a quienes,
+          desde la academia, la escuela, los museos y los medios, trabajan
+          por acercar las Matemáticas a la sociedad.
+        </p>
+        <p>
+          El Simposio es nuestro encuentro anual: tres días de ponencias,
+          conversaciones, talleres y una feria abierta al público. Es el
+          espacio donde compartimos lo que estamos haciendo, mostramos lo
+          que se viene y, sobre todo, encontramos a otras personas que
+          creen, como nosotros, que las Matemáticas pertenecen a todas y todos.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROGRAMA ========== -->
+  <section id="programa" class="section">
+    <div class="container">
+      <header class="section-head">
+        <p class="section-eyebrow">02 · Programa</p>
+        <h2 class="section-title">Tres jornadas, tres modos de habitar la divulgación</h2>
+      </header>
+
+      <div class="program-grid">
+        <article class="day-card">
+          <div class="day-num">29<span>jul</span></div>
+          <h3 class="day-title">Jornada interna</h3>
+          <p class="day-kind">Ponencias y diálogo</p>
+          <p class="day-text">
+            La red se reúne consigo misma. Presentaciones de proyectos en
+            curso, paneles temáticos y conversaciones sobre el rumbo de
+            la divulgación matemática en Chile.
+          </p>
+        </article>
+
+        <article class="day-card day-card-accent">
+          <div class="day-num">30<span>jul</span></div>
+          <h3 class="day-title">Plenarias</h3>
+          <p class="day-kind">Charlas con invitado internacional</p>
+          <p class="day-text">
+            Jornada abierta con conferencias de figuras destacadas de la
+            divulgación iberoamericana, encabezadas por el invitado
+            internacional Antonio Cafure.
+          </p>
+        </article>
+
+        <article class="day-card">
+          <div class="day-num">31<span>jul</span></div>
+          <h3 class="day-title">Feria abierta</h3>
+          <p class="day-kind">Divulgación para toda la ciudad</p>
+          <p class="day-text">
+            Stands, talleres y actividades para público general.
+            La oportunidad de mostrar el trabajo de la red a quienes,
+            normalmente, nunca llegan a una sala de conferencias.
+          </p>
+        </article>
+      </div>
+
+      <p class="program-note">
+        El programa detallado se publicará junto con el segundo anuncio.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== INVITADO ========== -->
+  <section id="invitado" class="section section-dark">
+    <div class="container guest-grid">
+      <div class="guest-photo">
+        <!-- Placeholder: reemplazar por foto real de Antonio Cafure -->
+        <div class="photo-frame">
+          <img src="assets/images/cafure.jpg" alt="Antonio Cafure" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="photo-placeholder">
+            <span>Foto<br>Antonio Cafure</span>
+          </div>
+        </div>
+      </div>
+      <div class="guest-text">
+        <p class="section-eyebrow light">03 · Invitado internacional</p>
+        <h2 class="guest-name">Antonio Cafure</h2>
+        <p class="guest-affiliation">Argentina · UMALCA</p>
+        <p class="guest-bio">
+          Presidente de la Comisión de Divulgación y Popularización de las
+          Matemáticas de la Unión Matemática de América Latina y el Caribe
+          (UMALCA). Conductor del podcast <em>Matemática Sentimental</em> y
+          del programa <em>L'Mental</em>, dos de las propuestas más
+          escuchadas en divulgación matemática en español.
+        </p>
+        <ul class="guest-tags">
+          <li>Podcast</li>
+          <li>UMALCA</li>
+          <li>Divulgación</li>
+          <li>Iberoamérica</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONVOCATORIA ========== -->
+  <section id="convocatoria" class="section section-light">
+    <div class="container">
+      <header class="section-head">
+        <p class="section-eyebrow">04 · Convocatoria</p>
+        <h2 class="section-title">Próximamente abrimos las postulaciones</h2>
+      </header>
+
+      <div class="cfp-grid">
+        <div class="cfp-item">
+          <span class="cfp-num">01</span>
+          <h3>Ponencias</h3>
+          <p>Presentaciones de proyectos, investigación aplicada a divulgación, experiencias de aula y de territorio.</p>
+        </div>
+        <div class="cfp-item">
+          <span class="cfp-num">02</span>
+          <h3>Stands</h3>
+          <p>Espacios para mostrar materiales, libros, instalaciones interactivas y proyectos de divulgación.</p>
+        </div>
+        <div class="cfp-item">
+          <span class="cfp-num">03</span>
+          <h3>Talleres</h3>
+          <p>Actividades de mediación matemática para público escolar y general durante la feria del 31 de julio.</p>
+        </div>
+        <div class="cfp-item">
+          <span class="cfp-num">04</span>
+          <h3>Proyectos</h3>
+          <p>Iniciativas en curso que busquen visibilidad, retroalimentación o vínculos con otras experiencias de la red.</p>
+        </div>
+      </div>
+
+      <div class="cfp-cta">
+        <p>Las bases y el formulario se publicarán en este sitio cuando se abra el segundo anuncio.</p>
+        <a href="mailto:contacto@dimatchile.cl" class="btn btn-primary">Escríbenos para estar al tanto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ORGANIZAN ========== -->
+  <section id="organizan" class="section">
+    <div class="container">
+      <header class="section-head">
+        <p class="section-eyebrow">05 · Organizan y patrocinan</p>
+        <h2 class="section-title">Una red sostenida por muchas instituciones</h2>
+      </header>
+
+      <div class="orgs">
+        <div class="orgs-block">
+          <h3 class="orgs-label">Organizan</h3>
+          <ul class="logo-row">
+            <li><div class="logo-slot"><span>Logo<br>PUC</span></div><p>Pontificia Universidad Católica de Chile</p></li>
+            <li><div class="logo-slot"><span>Logo<br>ULAGOS</span></div><p>Universidad de Los Lagos</p></li>
+            <li><div class="logo-slot"><span>Logo<br>DIMAT</span></div><p>Red de Divulgación Matemática Chile</p></li>
+          </ul>
+        </div>
+
+        <div class="orgs-block">
+          <h3 class="orgs-label">Patrocinan</h3>
+          <ul class="logo-row logo-row-sm">
+            <li><div class="logo-slot"><span>SOMACHI</span></div><p>Sociedad de Matemática de Chile</p></li>
+            <li><div class="logo-slot"><span>SOCHIEM</span></div><p>Sociedad Chilena de Educación Matemática</p></li>
+            <li><div class="logo-slot"><span>Red VCM<br>CUECH</span></div><p>Red VCM del Consorcio de Universidades del Estado</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <svg class="brand-mark large" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <text x="20" y="27" text-anchor="middle" font-family="Fraunces, serif" font-size="22" font-weight="600" fill="currentColor">π</text>
+        </svg>
+        <p class="footer-name">Red de Divulgación Matemática Chile</p>
+        <p class="footer-lema">Matemáticas que conectan, ideas que transforman.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="mailto:contacto@dimatchile.cl">contacto@dimatchile.cl</a></li>
+          <li><a href="https://dimatchile.cl">dimatchile.cl</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Redes</h4>
+        <ul>
+          <li><a href="https://instagram.com/dimatchile" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#simposio">El Simposio</a></li>
+          <li><a href="#programa">Programa</a></li>
+          <li><a href="#invitado">Invitado</a></li>
+          <li><a href="#convocatoria">Convocatoria</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-base">
+      <p>&copy; 2026 Red DIMAT Chile · III Simposio de Divulgación Matemática</p>
+      <p class="footer-credit">Santiago, Chile</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
