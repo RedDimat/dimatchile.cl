@@ -710,8 +710,24 @@ button { font-family: inherit; cursor: pointer; }
   width: 100%;
   aspect-ratio: 16 / 9;
   background: var(--hueso);
-  border: 1px dashed var(--gris-tenue);
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 1rem;
+}
+.logo-slot img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+.logo-fallback {
+  display: none;
+  position: absolute;
+  inset: 0;
   align-items: center;
   justify-content: center;
   color: var(--gris);
@@ -719,6 +735,7 @@ button { font-family: inherit; cursor: pointer; }
   font-style: italic;
   font-size: 0.9rem;
   text-align: center;
+  border: 1px dashed var(--gris-tenue);
 }
 .logo-row-sm .logo-slot { aspect-ratio: 2 / 1; }
 .logo-row li p {
