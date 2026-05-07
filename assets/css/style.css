@@ -128,8 +128,19 @@ button { font-family: inherit; cursor: pointer; }
   gap: 0.7rem;
   color: var(--azul-oscuro);
 }
-.brand-mark { width: 38px; height: 38px; flex-shrink: 0; display: block; }
-.brand-mark.large { width: 60px; height: 60px; margin-bottom: 1rem; }
+.brand-mark {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  display: block;
+  object-fit: contain;
+}
+.brand-mark.large {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
 .brand-text { display: flex; flex-direction: column; line-height: 1.05; }
 .brand-name {
   font-family: var(--serif);
@@ -223,9 +234,11 @@ button { font-family: inherit; cursor: pointer; }
   top: 8%;
   right: 4%;
   width: clamp(180px, 24vw, 320px);
+  height: clamp(180px, 24vw, 320px);
   opacity: 0.85;
   animation: slowSpin 60s linear infinite;
   transform-origin: center;
+  object-fit: contain;
 }
 @keyframes slowSpin {
   to { transform: rotate(360deg); }
