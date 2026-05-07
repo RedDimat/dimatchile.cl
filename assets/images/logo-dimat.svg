@@ -1,5 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-700 -700 1400 1400">
-  <g stroke="#0d2840" stroke-width="14" stroke-linecap="round" fill="none">
+  <polygon points="540.00,-0.00 381.84,-381.84 0.00,-540.00 -381.84,-381.84 -540.00,-0.00 -381.84,381.84 -0.00,540.00 381.84,381.84" fill="#4a8b5c" opacity="0.28"/>
+  <polygon points="540.00,-0.00 270.00,-111.84 223.68,-0.00 270.00,111.84" fill="white"/>
+  <polygon points="381.84,-381.84 111.84,-270.00 158.16,-158.16 270.00,-111.84" fill="white"/>
+  <polygon points="0.00,-540.00 111.84,-270.00 -0.00,-223.68 -111.84,-270.00" fill="white"/>
+  <polygon points="-381.84,-381.84 -111.84,-270.00 -158.16,-158.16 -270.00,-111.84" fill="white"/>
+  <polygon points="-540.00,-0.00 -270.00,-111.84 -223.68,-0.00 -270.00,111.84" fill="white"/>
+  <polygon points="-381.84,381.84 -270.00,111.84 -158.16,158.16 -111.84,270.00" fill="white"/>
+  <polygon points="-0.00,540.00 -111.84,270.00 -0.00,223.68 111.84,270.00" fill="white"/>
+  <polygon points="381.84,381.84 111.84,270.00 158.16,158.16 270.00,111.84" fill="white"/>
+  <g stroke="#0d2840" stroke-width="10" stroke-linecap="round" fill="none">
     <line x1="540.00" y1="-0.00" x2="381.84" y2="-381.84"/>
     <line x1="540.00" y1="-0.00" x2="0.00" y2="-540.00"/>
     <line x1="540.00" y1="-0.00" x2="-381.84" y2="-381.84"/>
@@ -29,6 +38,14 @@
     <line x1="-381.84" y1="381.84" x2="381.84" y2="381.84"/>
     <line x1="-0.00" y1="540.00" x2="381.84" y2="381.84"/>
   </g>
+  <circle cx="540.00" cy="-0.00" r="100" fill="white"/>
+  <circle cx="381.84" cy="-381.84" r="100" fill="white"/>
+  <circle cx="0.00" cy="-540.00" r="100" fill="white"/>
+  <circle cx="-381.84" cy="-381.84" r="100" fill="white"/>
+  <circle cx="-540.00" cy="-0.00" r="100" fill="white"/>
+  <circle cx="-381.84" cy="381.84" r="100" fill="white"/>
+  <circle cx="-0.00" cy="540.00" r="100" fill="white"/>
+  <circle cx="381.84" cy="381.84" r="100" fill="white"/>
   <circle cx="540.00" cy="-0.00" r="62.5" fill="#0d2840" opacity="1.0"/>
   <circle cx="381.84" cy="-381.84" r="62.5" fill="#0d2840" opacity="0.9"/>
   <circle cx="0.00" cy="-540.00" r="62.5" fill="#0d2840" opacity="0.8"/>

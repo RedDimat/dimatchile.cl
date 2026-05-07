@@ -128,8 +128,8 @@ button { font-family: inherit; cursor: pointer; }
   gap: 0.7rem;
   color: var(--azul-oscuro);
 }
-.brand-mark { width: 36px; height: 36px; flex-shrink: 0; }
-.brand-mark.large { width: 56px; height: 56px; }
+.brand-mark { width: 38px; height: 38px; flex-shrink: 0; display: block; }
+.brand-mark.large { width: 60px; height: 60px; margin-bottom: 1rem; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.05; }
 .brand-name {
   font-family: var(--serif);
@@ -218,27 +218,17 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--celeste);
   opacity: 0.55;
 }
-.deco-icosa {
+.deco-logo {
   position: absolute;
-  top: 12%;
+  top: 8%;
   right: 4%;
-  width: clamp(140px, 18vw, 220px);
-  color: var(--verde);
+  width: clamp(180px, 24vw, 320px);
+  opacity: 0.85;
   animation: slowSpin 60s linear infinite;
+  transform-origin: center;
 }
 @keyframes slowSpin {
   to { transform: rotate(360deg); }
-}
-.deco-pi {
-  position: absolute;
-  top: 55%;
-  right: 8%;
-  font-family: var(--serif);
-  font-size: clamp(8rem, 18vw, 16rem);
-  font-weight: 300;
-  color: var(--azul-oscuro);
-  opacity: 0.06;
-  line-height: 1;
 }
 .deco-dots {
   position: absolute;
