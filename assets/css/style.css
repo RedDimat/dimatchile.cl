@@ -828,12 +828,12 @@ button { font-family: inherit; cursor: pointer; }
   .hero-card { max-width: 480px; }
 
   .deco-logo {
-    width: clamp(80px, 18vw, 130px);
-    height: clamp(80px, 18vw, 130px);
-    top: auto;
-    bottom: 1.5rem;
-    right: 1.5rem;
-    opacity: 0.35;
+    width: clamp(80px, 18vw, 120px);
+    height: clamp(80px, 18vw, 120px);
+    top: clamp(5.5rem, 18vw, 8rem);
+    right: 1.2rem;
+    bottom: auto;
+    opacity: 0.5;
   }
 
   .two-col { grid-template-columns: 1fr; gap: 1.5rem; }
