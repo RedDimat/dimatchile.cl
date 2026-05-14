@@ -827,6 +827,15 @@ button { font-family: inherit; cursor: pointer; }
   .hero-grid { grid-template-columns: 1fr; }
   .hero-card { max-width: 480px; }
 
+  .deco-logo {
+    width: clamp(80px, 18vw, 130px);
+    height: clamp(80px, 18vw, 130px);
+    top: auto;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    opacity: 0.35;
+  }
+
   .two-col { grid-template-columns: 1fr; gap: 1.5rem; }
 
   .program-grid { grid-template-columns: 1fr; }
