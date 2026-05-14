@@ -533,6 +533,84 @@ button { font-family: inherit; cursor: pointer; }
 }
 .day-card-accent .day-text { color: var(--celeste-claro); }
 
+.day-sede {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--verde);
+  margin: 0 0 0.8rem;
+}
+.day-card-accent .day-sede { color: var(--celeste); }
+
+.day-schedule {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  padding-top: 0.8rem;
+}
+.day-schedule li {
+  display: flex;
+  gap: 0.8rem;
+  font-size: 0.85rem;
+  padding: 0.3rem 0;
+  color: var(--celeste-claro);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.day-schedule li:last-child { border-bottom: none; }
+.day-schedule li span {
+  font-family: var(--serif);
+  font-weight: 500;
+  color: var(--hueso);
+  min-width: 3rem;
+}
+
+.committee-list {
+  display: grid;
+  gap: 0.8rem;
+}
+.committee-list li {
+  font-size: 0.95rem;
+  color: var(--azul-medio);
+  line-height: 1.4;
+}
+.committee-list li strong {
+  color: var(--azul-oscuro);
+}
+
+.announcements-list {
+  display: grid;
+  gap: 0.5rem;
+}
+.announcement-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1.2rem;
+  background: var(--crema);
+  border: 1px solid var(--linea);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.announcement-link:hover {
+  background: rgba(95, 179, 217, 0.1);
+  border-color: var(--celeste);
+}
+.announcement-num {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--celeste);
+  min-width: 2rem;
+}
+.announcement-dl {
+  margin-left: auto;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--celeste);
+}
+
 .program-note {
   margin-top: 3rem;
   text-align: center;
