@@ -843,6 +843,14 @@ button { font-family: inherit; cursor: pointer; }
 
   .hero-grid { grid-template-columns: 1fr; }
 
+  .deco-logo {
+    width: clamp(80px, 18vw, 110px);
+    height: clamp(80px, 18vw, 110px);
+    top: clamp(5rem, 16vw, 7.5rem);
+    right: 1rem;
+    opacity: 0.3;
+  }
+
   .hero-card {
     grid-template-columns: 1fr;
     gap: 0;
