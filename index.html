@@ -111,7 +111,7 @@
             <dd>Tercera</dd>
           </div>
         </dl>
-        <p class="card-foot">Próximamente: convocatoria abierta para ponencias, proyectos, stands y talleres.</p>
+        <p class="card-foot">Convocatoria cerrada. Programa completo de las tres jornadas más abajo.</p>
       </aside>
     </div>
   </section>
@@ -148,50 +148,301 @@
         <h2 class="section-title">Tres jornadas, tres modos de habitar la divulgación</h2>
       </header>
 
-      <div class="program-grid">
-        <article class="day-card">
-          <div class="day-num">29<span>jul</span></div>
-          <h3 class="day-title">Jornada interna</h3>
-          <p class="day-kind">Ponencias y diálogo</p>
-          <p class="day-sede">Universidad de Los Lagos · Sede República</p>
-          <p class="day-text">
-            La red se reúne consigo misma. Presentaciones de proyectos en
-            curso, paneles temáticos y conversaciones sobre el rumbo de
-            la divulgación matemática en Chile.
-          </p>
-        </article>
+      <div class="cronograma-toggle">
+        <button type="button" id="btnTodo" onclick="toggleTodos()">Mostrar todo</button>
+      </div>
 
-        <article class="day-card day-card-accent">
-          <div class="day-num">30<span>jul</span></div>
-          <h3 class="day-title">Plenarias</h3>
-          <p class="day-kind">Charlas con invitado internacional</p>
-          <p class="day-sede">Facultad de Matemáticas · PUC</p>
-          <p class="day-text">
-            Jornada abierta con conferencias de figuras destacadas de la
-            divulgación iberoamericana, encabezadas por Antonio Cafure.
-          </p>
-          <ul class="day-schedule">
-            <li><span>09:30</span> Charlas</li>
-            <li><span>11:00</span> Coffee break</li>
-            <li><span>11:30</span> Charlas</li>
-            <li><span>13:00</span> Almuerzo</li>
-            <li><span>14:30</span> Charlas</li>
-            <li><span>16:00</span> Coffee break</li>
-            <li><span>16:30</span> Charlas</li>
-          </ul>
-        </article>
+      <div class="cronograma">
 
-        <article class="day-card">
-          <div class="day-num">31<span>jul</span></div>
-          <h3 class="day-title">Feria abierta</h3>
-          <p class="day-kind">Divulgación para toda la ciudad</p>
-          <p class="day-sede">Pontificia Universidad Católica de Chile</p>
-          <p class="day-text">
-            Stands, talleres y actividades para público general.
-            La oportunidad de mostrar el trabajo de la red a quienes,
-            normalmente, nunca llegan a una sala de conferencias.
-          </p>
-        </article>
+        <!-- ============ DÍA 1 — 29 DE JULIO ============ -->
+        <details class="dia" open>
+          <summary>
+            <span class="fecha-badge">29 jul</span>
+            <span class="dia-info">
+              <h3>Jornada interna</h3>
+              <p>Universidad de Los Lagos · Sede República</p>
+            </span>
+          </summary>
+          <div class="dia-contenido">
+
+            <div class="fila">
+              <span class="hora">8:30</span>
+              <span class="expositor"></span>
+              <span class="titulo-charla">Registro y llegada</span>
+            </div>
+            <div class="fila">
+              <span class="hora">9:00</span>
+              <span class="expositor"></span>
+              <span class="titulo-charla">Saludo institucional</span>
+            </div>
+            <div class="fila">
+              <span class="hora">9:30</span>
+              <span class="expositor">Fabiola Vilugrón (UPLA), Claudia García (UTEM) y Osvaldo Bernales Rivas (ULagos)</span>
+              <span class="titulo-charla">Taller Red VCM CUECH</span>
+            </div>
+            <div class="fila fila--break">
+              <span class="hora">13:00</span>
+              <span class="expositor">Almuerzo</span>
+            </div>
+            <div class="fila">
+              <span class="hora">14:30</span>
+              <span class="expositor">Ana Mujica Stach</span>
+              <span class="titulo-charla">Cuando la IA acompaña el aprendizaje matemático: prácticas de docentes de educación inicial en la Región de Los Lagos</span>
+            </div>
+            <div class="fila">
+              <span class="hora">15:00</span>
+              <span class="expositor">Hugo Maturana</span>
+              <span class="titulo-charla">Geometría, arte y patrimonio cultural: una propuesta para la formación inicial docente en álgebra abstracta</span>
+            </div>
+            <div class="fila">
+              <span class="hora">15:30</span>
+              <span class="expositor">Francisco López</span>
+              <span class="titulo-charla">Experiencias de aula en electivo de Límites, Derivadas e Integrales</span>
+            </div>
+            <div class="fila fila--break">
+              <span class="hora">16:00</span>
+              <span class="expositor">Coffee</span>
+            </div>
+            <div class="fila">
+              <span class="hora">16:30</span>
+              <span class="expositor">Claudia Vargas</span>
+              <span class="titulo-charla">Neurociencia, emociones y cuerpo: una nueva mirada al aprendizaje de la matemática</span>
+            </div>
+            <div class="fila">
+              <span class="hora">17:00</span>
+              <span class="expositor">Sandy Schumacher y Natalia González</span>
+              <span class="titulo-charla">¿Por qué tantos estudiantes fracasan en matemática al ingresar a la universidad?</span>
+            </div>
+
+          </div>
+        </details>
+
+        <!-- ============ DÍA 2 — 30 DE JULIO ============ -->
+        <details class="dia">
+          <summary>
+            <span class="fecha-badge">30 jul</span>
+            <span class="dia-info">
+              <h3>Charlas y Plenaria</h3>
+              <p>Facultad de Matemáticas · PUC</p>
+            </span>
+          </summary>
+          <div class="dia-contenido">
+
+            <p class="subgrupo-sede">Sala (por confirmar)</p>
+
+            <div class="fila">
+              <span class="hora">9:00</span>
+              <span class="expositor">Eduardo Reyes y Constanza del Campo</span>
+              <span class="titulo-charla">Club de Matemáticas PUC</span>
+            </div>
+            <div class="fila">
+              <span class="hora">9:30</span>
+              <span class="expositor">Romina Toledo</span>
+              <span class="titulo-charla">Tertulias Interdisciplinarias</span>
+            </div>
+            <div class="fila">
+              <span class="hora">10:00</span>
+              <span class="expositor">Andrea Pinto</span>
+              <span class="titulo-charla">Matemática Mujer, una historia en cuatro tiempos</span>
+            </div>
+            <div class="fila">
+              <span class="hora">10:30</span>
+              <span class="expositor">Estefanía Bravo y Nicolé Geyssel</span>
+              <span class="titulo-charla">Exploradoras Matemáticas: Pertenecer para aprender</span>
+            </div>
+            <div class="fila fila--break">
+              <span class="hora">11:00</span>
+              <span class="expositor">Coffee</span>
+            </div>
+            <div class="fila fila--destacada">
+              <span class="hora">11:30</span>
+              <span class="expositor"><span class="badge">Plenaria</span><br>Antonio Cafure</span>
+              <span class="titulo-charla">Más allá de los números</span>
+              <details class="resumen">
+                <summary>Ver resumen</summary>
+                <div class="resumen-texto">
+                  <p>En numerosas ocasiones, tan preocupados por mostrar la importancia de la matemática y despertar el interés de la gente, exaltamos su importancia en la explicación del mundo físico, en la relevancia de sus aplicaciones, en su poder como lenguaje de la naturaleza. Sin embargo, estaríamos subestimándola, condenándola irremediablemente, si en nuestro afán de hacerla más amigable, nos concentramos solo en esos aspectos y dejamos de lado que la matemática es, por sobre todas las cosas, una de las actividades humanas por excelencia.</p>
+                  <p>John Allen Paulos es un matemático estadounidense reconocido por sus textos y su preocupación por las consecuencias de la mala educación matemática de la mayoría de las personas. Uno de sus libros es el ya clásico <em>Más allá de los números</em>. Allí, además de resaltar que la matemática es mucho más que el simple cálculo, expresa enfáticamente "que la perspectiva que resulta de su estudio puede aclarar aspectos de nuestras vidas que están más allá de nuestras preocupaciones financieras o científicas."</p>
+                  <p>En este sentido, nos interesa rescatar el aspecto sentimental, conmovedor, profundamente metafórico de la actividad matemática. ¿Cuántas formas hay de conmoverse con ella?, ¿cómo es que puede darnos felicidad? En esta charla recorreremos diferentes situaciones en las que la matemática puede sorprendernos, conmovernos y hacernos felices.</p>
+                </div>
+              </details>
+            </div>
+            <div class="fila fila--break">
+              <span class="hora">12:30</span>
+              <span class="expositor">Almuerzo</span>
+            </div>
+            <div class="fila">
+              <span class="hora">14:00</span>
+              <span class="expositor">Cristian Reyes Monsalve</span>
+              <span class="titulo-charla">A 200 años de la llegada de Andrés Gorbea: la introducción de las matemáticas superiores en Chile</span>
+            </div>
+            <div class="fila">
+              <span class="hora">14:30</span>
+              <span class="expositor">Sebastián Calzadillas, Estefanía Bravo y Nicolé Geyssel</span>
+              <span class="titulo-charla">Superficies cuádricas y arquitectura, una experiencia inmersa de realidad virtual</span>
+            </div>
+            <div class="fila">
+              <span class="hora">15:00</span>
+              <span class="expositor">Apolo Coba, José Peña y Raimundo Olfos</span>
+              <span class="titulo-charla">Semana Nacional de las Matemáticas (SNM) 2026</span>
+            </div>
+            <div class="fila fila--break">
+              <span class="hora">15:30</span>
+              <span class="expositor">Coffee</span>
+            </div>
+            <div class="fila">
+              <span class="hora">16:00</span>
+              <span class="expositor">Barinia Muñoz, María José Nuñez y Renata Córdova</span>
+              <span class="titulo-charla">EMMA: construyendo comunidad y equidad en matemáticas</span>
+            </div>
+            <div class="fila">
+              <span class="hora">16:30</span>
+              <span class="expositor">Amalia Pizarro</span>
+              <span class="titulo-charla">Amalia te lo explica — Podcast</span>
+            </div>
+            <div class="fila">
+              <span class="hora">17:00</span>
+              <span class="expositor">Carolina Becerra y Gabriela Fernández</span>
+              <span class="titulo-charla">La Ventana Matemática — Podcast</span>
+            </div>
+            <div class="fila">
+              <span class="hora">17:30</span>
+              <span class="expositor">Fernanda Strotkötter Vergara</span>
+              <span class="titulo-charla">La Profe Fernanda y cómo las redes sociales influyen en la divulgación matemática</span>
+            </div>
+            <div class="fila fila--break">
+              <span class="hora">17:55</span>
+              <span class="expositor">Cierre</span>
+            </div>
+
+          </div>
+        </details>
+
+        <!-- ============ DÍA 3 — 31 DE JULIO ============ -->
+        <details class="dia">
+          <summary>
+            <span class="fecha-badge">31 jul</span>
+            <span class="dia-info">
+              <h3>Feria abierta</h3>
+              <p>Pontificia Universidad Católica de Chile · Feria 10:00–13:00</p>
+            </span>
+          </summary>
+          <div class="dia-contenido">
+
+            <p class="subgrupo-titulo">Feria de stands</p>
+            <p class="subgrupo-sede">Explanada · Facultad de Matemáticas PUC</p>
+
+            <div class="fila">
+              <span class="stand-num">Stand 01</span>
+              <span class="expositor">Marianela Castillo Fernández y Álvaro Moya</span>
+              <span class="titulo-charla">Laboratorio STEAM para la Enseñanza de la Matemática — Universidad de Concepción</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 02</span>
+              <span class="expositor">Romina Toledo Astudillo</span>
+              <span class="titulo-charla">Las Primas de Germain</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 03</span>
+              <span class="expositor">Fernanda Strotkötter Vergara</span>
+              <span class="titulo-charla">Tejiendo Matemáticas</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 04</span>
+              <span class="expositor">Daniel Bravo y Cloe Madrid</span>
+              <span class="titulo-charla">Pirámide de Sierpinski</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 05</span>
+              <span class="expositor">Nicole Geyssel y Amparo Silva</span>
+              <span class="titulo-charla">Mentes brillantes, género oculto</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 06</span>
+              <span class="expositor">Natalia Pérez Cabrera y Alexis Almendras Valdebenito</span>
+              <span class="titulo-charla">Modelando la historia: objetos matemáticos de civilizaciones antiguas reconstruidos en 3D</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 07</span>
+              <span class="expositor">Mariela Carvacho Bustamante y Monserrat Carvacho</span>
+              <span class="titulo-charla">Stand croMáTica: todo depende del lente con el que se mire</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 08</span>
+              <span class="expositor">Sandy Schumacher y Natalia González</span>
+              <span class="titulo-charla">Matematiza: cuando la tecnología se pone al servicio del aprendizaje</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 09</span>
+              <span class="expositor">Cristóbal Quezada y Josefina Pérez</span>
+              <span class="titulo-charla">Matemáticas y Burbujas</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 10</span>
+              <span class="expositor">Loreto Aguilera</span>
+              <span class="titulo-charla">Teselaciones: el arte de cubrir el plano</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 11</span>
+              <span class="expositor">Mariana Caris</span>
+              <span class="titulo-charla">¿Cuántos colores necesita un mapa?</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 12</span>
+              <span class="expositor">Sebastián Bascuñán</span>
+              <span class="titulo-charla">Matemáticas en el Rompecabezas del 15</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 13</span>
+              <span class="expositor">Ignacio Huerta</span>
+              <span class="titulo-charla">Te lo cuento en 5 minutos</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 14</span>
+              <span class="expositor">Andrea Pinto Vergara</span>
+              <span class="titulo-charla">Matemática Mujer, una historia en cuatro tiempos</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 15</span>
+              <span class="expositor">María José Moreno</span>
+              <span class="titulo-charla">Abstracta UC</span>
+            </div>
+            <div class="fila">
+              <span class="stand-num">Stand 16</span>
+              <span class="expositor">María José Moreno</span>
+              <span class="titulo-charla">Festival de Matemáticas</span>
+            </div>
+
+            <p class="subgrupo-titulo">Actividades paralelas</p>
+            <p class="subgrupo-sede">Auditorio (por confirmar) · Facultad de Matemáticas PUC · Abierto al público</p>
+
+            <div class="fila fila--destacada">
+              <span class="hora">10:00</span>
+              <span class="expositor"><span class="badge">Charla destacada</span><br>Antonio Cafure</span>
+              <span class="titulo-charla">Los peligros de una inteligencia no artificial</span>
+              <details class="resumen">
+                <summary>Ver resumen</summary>
+                <div class="resumen-texto">
+                  <p>La confianza que ahora depositamos en las inteligencias artificiales, entrenadas por el hombre, es más o menos la misma que durante siglos hemos depositado en las inteligencias humanas y sus producciones: libros, artefactos tecnológicos, modos de comprender el mundo. Si lo pensamos un instante, parece razonable considerar que las sucesivas inteligencias humanas surgen como el resultado del entrenamiento a cargo de las generaciones anteriores. Es decir, bien podemos pensar que nuestros antecesores fueron los artífices del desarrollo de nuestras inteligencias.</p>
+                  <p>En esta charla vamos a discutir sobre el valor y sobre la confianza que hemos depositado en ciertos artefactos matemáticos producidos por las inteligencias humanas: libros de texto, formas de resolver ejercicios, demostraciones de teoremas, propuestas pedagógicas, etc.</p>
+                </div>
+              </details>
+            </div>
+            <div class="fila">
+              <span class="hora">11:00</span>
+              <span class="expositor"></span>
+              <span class="titulo-charla">Entrega de premios SNM</span>
+            </div>
+            <div class="fila fila--destacada">
+              <span class="hora">12:00</span>
+              <span class="expositor"><span class="badge">Charla destacada</span><br>Andrés Navas</span>
+              <span class="titulo-charla">La matemática de los balones deportivos</span>
+              <p class="resumen-pendiente">Resumen próximamente</p>
+            </div>
+
+          </div>
+        </details>
+
       </div>
     </div>
   </section>
@@ -230,7 +481,7 @@
     <div class="container">
       <header class="section-head">
         <p class="section-eyebrow">04 · Convocatoria</p>
-        <h2 class="section-title">Inscripciones abiertas</h2>
+        <h2 class="section-title">Inscripciones cerradas</h2>
       </header>
 
       <div class="cfp-grid">
@@ -257,8 +508,8 @@
       </div>
 
       <div class="cfp-cta">
-        <p>Inscripción gratuita. Completa el formulario para participar en el III Simposio de Divulgación Matemática.</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfijL8hbDn2oeqpWBNY_nY0thHZc414HhafQhaOHbnHN8FrWg/viewform" target="_blank" rel="noopener" class="btn btn-primary">Inscríbete aquí</a>
+        <p>El período de inscripción ha finalizado. Nos vemos el 29, 30 y 31 de julio — revisa el programa completo más abajo.</p>
+        <a href="#programa" class="btn btn-primary">Ver el programa</a>
       </div>
     </div>
   </section>
@@ -338,6 +589,9 @@
           </ul>
         </div>
       </div>
+    </div>
+  </section>
+
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
@@ -379,5 +633,14 @@
   </footer>
 
   <script src="assets/js/main.js"></script>
+  <script>
+    function toggleTodos(){
+      var dias = document.querySelectorAll('.dia');
+      var btn = document.getElementById('btnTodo');
+      var hayAlgunoCerrado = Array.prototype.some.call(dias, function(d){ return !d.open; });
+      dias.forEach(function(d){ d.open = hayAlgunoCerrado; });
+      btn.textContent = hayAlgunoCerrado ? 'Colapsar todo' : 'Mostrar todo';
+    }
+  </script>
 </body>
 </html>
