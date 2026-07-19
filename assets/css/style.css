@@ -736,6 +736,42 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 /* ============================================================
+   PARTICIPANTES
+   ============================================================ */
+.participants-intro {
+  max-width: 640px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+.participants-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4rem 2.5rem;
+}
+.participants-grid li {
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--linea);
+}
+.participant-name {
+  font-size: 0.95rem;
+  color: var(--azul-oscuro);
+  font-weight: 500;
+}
+.participant-inst {
+  font-size: 0.8rem;
+  color: var(--gris);
+  margin-top: 0.15rem;
+}
+@media (max-width: 900px) {
+  .participants-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .participants-grid { grid-template-columns: 1fr; }
+}
+
+/* ============================================================
    INVITADO
    ============================================================ */
 .guest-grid {
